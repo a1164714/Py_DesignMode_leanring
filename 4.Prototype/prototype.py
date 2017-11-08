@@ -11,6 +11,8 @@ from copy import deepcopy, copy
 # 1、深拷贝和浅拷贝的使用需要事先考虑周到；
 # 2、某些编程语言中，拷贝会影响到静态变量和静态函数的使用。
 
+
+######## 画图系统 ###########
 class simpleLayer:
     background = [0, 0, 0, 0]
     content = "blank"

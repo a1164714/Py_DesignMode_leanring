@@ -27,7 +27,7 @@ class Singleton(object):  # 抽象单例
             cls._instance = orig.__new__(cls, *args, **kwargs)
         return cls._instance
 
-
+### 总线系统
 # 总线
 class Bus(Singleton):
     lock = threading.RLock()

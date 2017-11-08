@@ -23,6 +23,8 @@ class LogManager:
 
         return wrapper
 
+
+######## 快餐点餐系统（饮料加糖加冰系统） ###########
 class Beverage():
     name = ""
     price = 0.0
